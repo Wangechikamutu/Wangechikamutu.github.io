@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<title>Mercy Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="plans.html" class="w3-button w3-block">Plans</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="contact.html" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>Mercy Web Solutions</b></h1>
+    <p>One Stop Shop for Web Solutions</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="images/webdesign.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Web Design</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/soe.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">SOE</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/socialmedia.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Social Media Solutions</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Plans</h3>
+      <p>Your online presence begins with the right domain and web hosting plan. At Mercy Web Solutions, we offer flexible pricing options designed to suit businesses of all sizes—from startups to enterprises.</p>
+      <p>Choose a pricing plan that fits your needs.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Bronze</li>
+        <li class="w3-padding-16"><b>ALL Inclusive</b> Development,SOE and Hosting</li>
+        <li class="w3-padding-16"><b>10GB</b> Storage</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">KSH 12000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Silver</li>
+        <li class="w3-padding-16"><b>ALL Inclusive</b> Development,SOE and Hosting</li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">KSH 20000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Gold</li>
+        <li class="w3-padding-16"><b>ALL Inclusive</b> Development,SOE and Hosting</li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">Ksh 25000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+        <h1>Web Design Service Charter</h1>
+
+        <!-- Web Design Services Table -->
+        <h2>Web Design Services</h2>
+        <table class="service-table">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Requirements</th>
+                    <th>Timeframe</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Custom Website Design</td>
+                    <td>Development of a custom-designed website tailored to your brand’s requirements. Includes responsive design for mobile devices and SEO optimization.</td>
+                    <td>Client briefing, content (text, images, videos), domain and hosting details.</td>
+                    <td>4-6 weeks from project commencement to delivery.</td>
+                    <td>Ksh 100,000 - Ksh 150,000</td>
+                </tr>
+                <tr>
+                    <td>Website Redesign</td>
+                    <td>Redesign of an existing website to enhance functionality, user experience, and aesthetics. Includes layout updates, content revisions, and performance optimization.</td>
+                    <td>Access to current website files, details on areas to improve, new branding elements.</td>
+                    <td>3-4 weeks from start to finish.</td>
+                    <td>Ksh 75,000 - Ksh 120,000</td>
+                </tr>
+                <tr>
+                    <td>Website Maintenance</td>
+                    <td>Ongoing maintenance to ensure that your website remains updated, secure, and functional. Includes updates to content, plugins, security patches, and technical support.</td>
+                    <td>Website access credentials, update details (content, images, technical issues).</td>
+                    <td>Ongoing (monthly or quarterly packages available).</td>
+                    <td>Monthly: Ksh 20,000 - Ksh 30,000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- E-commerce Services Table -->
+        <h2>E-commerce Services</h2>
+        <table class="service-table">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Requirements</th>
+                    <th>Timeframe</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>E-commerce Website Design</td>
+                    <td>Design and development of an e-commerce website, including product catalog, shopping cart, and payment gateway integration.</td>
+                    <td>Product list, payment gateway details, logo, branding guidelines, and product content.</td>
+                    <td>6-8 weeks, depending on product complexity.</td>
+                    <td>Ksh 200,000 - Ksh 300,000</td>
+                </tr>
+                <tr>
+                    <td>Search Engine Optimization (SEO)</td>
+                    <td>Optimization of the website to rank higher in search engine results. Includes on-page SEO (meta tags, keyword optimization) and off-page SEO (backlinks, social media integration).</td>
+                    <td>Access to Google Analytics and Search Console, target keywords, content for optimization.</td>
+                    <td>2-3 months for initial results, ongoing improvements possible.</td>
+                    <td>Ksh 50,000 - Ksh 80,000 per month</td>
+                </tr>
+                <tr>
+                    <td>Content Management System (CMS) Setup</td>
+                    <td>Setting up a CMS (e.g., WordPress, Joomla) for clients to easily manage and update their website content.</td>
+                    <td>Domain and hosting details, content, CMS preference.</td>
+                    <td>2-3 weeks for setup and training.</td>
+                    <td>Ksh 50,000 - Ksh 70,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Created by:<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Mercy Kamutu</a></p>
+</footer>
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
